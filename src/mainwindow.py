@@ -25,7 +25,7 @@ class MainWindow(QMainWindow):
         #self.setStyleSheet("QTabBar{font: 8px;}")
 
         self._frm = QFrame(self)
-        self._frm.setStyleSheet("QWidget { background-color: #ffeaeaea }")
+        self._frm.setStyleSheet("QWidget { }")
         self._lyt = QVBoxLayout()
         self._frm.setLayout(self._lyt)
         self.setCentralWidget(self._frm)
